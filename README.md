@@ -1,20 +1,16 @@
-# Nome do Sistema: o que ele faz, em uma frase
+# MeuEvento: ajuda a organizar festas e eventos
 
 > **Antes de tudo.** Este é o modelo do Projeto Integrador de Análise e Projeto de Sistemas. Se você está lendo isto no seu próprio repositório, deu certo. Troque o título acima pelo nome do seu sistema e por uma frase que diga o que ele faz, preencha a autoria e o cliente e apague este aviso.
 
 Projeto Integrador de Análise e Projeto de Sistemas, 2026.
 IFPR, Centro de Referência Ponta Grossa. Técnico em Informática Integrado ao Ensino Médio.
 
-**Autoria:** _seu nome, como aparece no AVA_
-
-**Cliente:** _o papel do cliente e a relação dele com você, no máximo com o primeiro nome. Por exemplo, "Dona Rosa, minha avó, que faz marmita por encomenda"._
+Autoria: Gabriele Bueno Martins
+Cliente: Amanda, pessoa que precisa organizar uma festa e não sabe por onde começar.
 
 ## Apresentação do projeto
 
-<!-- Três a cinco frases para quem nunca ouviu falar do seu sistema. Qual é o problema, para quem, e o que o sistema faz a respeito.
-     Escreva depois de terminar a 4.1. É um resumo dela, com as suas palavras. -->
-
-_Escreva aqui a apresentação do projeto._
+O MeuEvento é um sistema para ajudar pessoas que precisam organizar uma festa ou evento, mas não sabem por onde começar ou quais itens precisam ser planejados. O sistema permite organizar informações como data e horário, comidas e bebidas, decoração e atrações, além de acompanhar o que já foi organizado.
 
 ## Documento do projeto
 
