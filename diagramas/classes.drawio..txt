@@ -1,0 +1,59 @@
+
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="meuevento-classes" name="Diagrama de Classes">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="org" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;Organizadora&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;nome: String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;organizarFesta()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="240" height="115" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="festa" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;Festa&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;data: Date&lt;br&gt;horario: Time&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;definirDataHorario()&lt;br&gt;acompanharOrganizacao()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="240" height="145" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="card" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;Cardapio&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;descricao: String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;organizarComidasBebidas()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="240" height="125" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="decor" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;Decoracao&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;descricao: String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;organizarDecoracao()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="240" height="125" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="atracao" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;Atracao&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;nome: String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;registrarAtracao()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="240" height="125" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="item" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;text-align:center;border-bottom:1px solid black;padding:8px;&quot;&gt;&lt;b&gt;ItemFesta&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border-bottom:1px solid black;padding:8px;&quot;&gt;descricao: String&lt;br&gt;organizado: Boolean&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;padding:8px;&quot;&gt;atualizarStatus()&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="870" y="510" width="210" height="135" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" value="1 : 0..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=1.5;fontSize=12;" edge="1" parent="1" source="org" target="festa">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" value="1 : 0..1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=1.5;fontSize=12;" edge="1" parent="1" source="festa" target="card">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" value="1 : 0..1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=1.5;fontSize=12;" edge="1" parent="1" source="festa" target="decor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" value="1 : 0..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeWidth=1.5;fontSize=12;" edge="1" parent="1" source="festa" target="atracao">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e5" value="1 : 0..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamond;startFill=1;endArrow=none;strokeWidth=1.5;fontSize=12;" edge="1" parent="1" source="festa" target="item">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="note" value="Composição: os ItemFesta pertencem à Festa. Multiplicidades propostas, sujeitas à validação com a cliente." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="600" height="65" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
